@@ -1,0 +1,136 @@
+/* TW - MAIN SCSS */
+
+
+/* ================================================================================ */
+/* COLORS */
+/* ================================================================================ */
+
+.red, .red a {
+	color: $color-red;
+}
+.lightgray, .lightgray a {
+	color: $color-lightgray;
+}
+.gray, .gray a {
+	color: $color-gray;
+}
+.charcoal, .charcoal a {
+	color: $color-charcoal;
+}
+.black, .black a {
+	color: $color-black;
+}
+
+
+/* ================================================================================ */
+/* GLOBAL STYLES */
+/* ================================================================================ */
+
+* {
+  @include box-sizing(border-box);
+}
+
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+::-moz-selection {
+	background: #eee;
+	color:#000; 
+	text-shadow: none;
+}
+
+::selection {
+	background: #eee;
+	color:#000;
+	text-shadow: none;
+} 
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #000;
+	&:hover {
+		text-decoration: underline;
+	}
+	&:active {
+		outline: none;
+	}
+	&:focus {
+		outline: none;
+	}
+}
+
+textarea {
+	resize: none;
+}
+
+// prevent ios zoom on select
+html.touch select:focus {
+    font-size:16px !important;
+}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {border: none;}
+
+::-webkit-input-placeholder {
+	color:#999;
+}
+
+input:-moz-placeholder {
+	color:#999;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="submit"], textarea {
+	-webkit-appearance: none;
+    border-radius: 0;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+
+
+/* ================================================================================ */
+/* HTML / BODY / SECTIONS */
+/* ================================================================================ */
+
+body {
+	-webkit-text-size-adjust:none;	
+}
+
+.main {
+	
+}
+
+aside {
+	
+}
+
+
+
+/* ================================================================================ */
+/* HEADER */
+/* ================================================================================ */
+
+header {
+	
+}
+
+
+/* ================================================================================ */
+/* FOOTER */
+/* ================================================================================ */
+
+footer {
+	
+}
+
+
+

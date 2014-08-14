@@ -1,0 +1,27 @@
+// PCW SCSS Core using the Bootstrap 3.1.1 Grid System
+
+
+// Mixins & Variables
+@import "site-scss/mixins";
+@import "site-scss/variables";
+
+
+// Setup
+@import "site-scss/reset";
+@import "site-scss/type";
+
+
+// Layout
+@import "site-scss/grid";
+@import "site-scss/main"; /* Main theme style */
+@import "site-scss/modules"; /* widgets and modules */
+@import "site-scss/responsive"; /* responsive tweaks */
+
+
+// Utilities
+@import "site-scss/utilities";
+@import "site-scss/responsive-utilities";
+
+
+// Plugins
+@import "site-scss/bootstrap-js";

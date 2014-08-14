@@ -1,0 +1,64 @@
+/* TYPE SCSS */
+
+
+/* ================================================================================ */
+/* FONT KITS */
+/* ================================================================================ */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Italic-webfont.eot');
+    src: url('../fonts/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Italic-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+
+
+/* ================================================================================ */
+/* CHARACTER STYLES */
+/* ================================================================================ */
+
+body {
+	font-size: $font-size-base;
+	font-family: 'Roboto', sans-serif;
+	line-height: $line-height-base;
+	-webkit-font-smoothing: antialiased;
+	color: #000;
+}
+
+p {
+	font-family: 'Georgia';
+}
+
+input, textarea, button {
+	-webkit-font-smoothing: antialiased;
+}
+
+.body-lg {
+	font-size: 1.250em;
+}
+
+.body-md {
+	font-size: 1em;
+}
+
+.body-sm {
+	font-size: 0.875em;
+}
+
+.thin {
+	font-weight: 300;
+}
+
+.h1 {font-size: 3.250em;} // 52px Roboto Condensed Bold
+.h2 {font-size: 2.250em;} // 36px Roboto Condensed Bold
+.h3 {font-size: 1.875em;} // 30px Roboto Bold
+.h4 {font-size: 1.500em;} // 24px Roboto Bold
+.h5 {font-size: 1.125em;} // 18px Roboto Bold
+
+

@@ -1,0 +1,114 @@
+/* UTILITIES SCSS */
+
+
+/* ================================================================================ */
+/* UTILITIES */
+/* ================================================================================ */
+	
+.centerizer {
+	display: block;
+	width: 100%; 
+	max-width: $container-large-desktop;  
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.pull-left {
+	float: left !important;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+.break {
+	display: block;
+	clear: both;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+*:first-child+html .clearfix { zoom: 1; } /* CLEARFIX IE7 */
+
+
+// Bootstrap Clearfix, sometimes necessary
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+.img-responsive {
+	@include img-responsive;
+}
+
+.push-down-1x {
+	margin-bottom: 1em;
+}
+.push-down-2x {
+	margin-bottom: 2em;
+}
+.push-down-3x {
+	margin-bottom: 3em;
+}
+.push-down-4x {
+	margin-bottom: 4em;
+}
+
+
+// Text Alignment
+// -------------------------
+
+.text-center {text-align: center;}
+
+.text-left {text-align: left;}
+
+.text-right {text-align: right;}
+
+
+
+// Toggling content
+// -------------------------
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.text-hide {
+  font: #{0/0} a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
