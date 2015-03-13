@@ -111,6 +111,15 @@ input[type="submit"] {
 }
 
 
+/* ---- BACKGROUND STYLE ---- */
+
+.bg-cover {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-ms-behavior: url('js/compat/backgroundsize.min.htc'); /* IE 8 Fix */
+}
+
 
 /* ================================================================================ */
 /* HTML / BODY / SECTIONS */
